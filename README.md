@@ -1,1 +1,1 @@
-End-to-End Agentic Ai Blod Generationtor
+End-to-End Agentic Ai Blog Generation System
