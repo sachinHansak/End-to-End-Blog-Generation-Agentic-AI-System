@@ -1,0 +1,38 @@
+# langchain_community == 0.3.27
+# langchain_openai == 0.3.30
+# langchain_experimental == 0.3.4
+# langchain_tavily == 0.2.11
+# langgraph == 0.5.4
+# snowflake.core == 1.6.0
+# # trulens-core == 2.2.1
+# #git+https://github.com/truera/trulens.git@josh/default_str_handler#subdirectory=src/feedback
+# # trulens-connectors-snowflake
+# # trulens-providers-openai == 2.2.1
+# matplotlib == 3.10.3
+# # trulens-apps-langgraph == 2.2.1
+# trulens-dashboard == 2.2.1
+# pyarrow < 19
+# setuptools < 81
+# langchain
+# langgraph
+# langchain_community
+# langchain_core
+# langchain_groq
+# langchain_openai
+# faiss-cpu
+# streamlit
+# tavily-python
+# arxiv
+# pydantic
+# langchain-pinecone>=0.2.0
+# trulens-eval
+
+langchain
+langgraph
+langchain_community
+langchain_core
+langchain_groq
+fastapi
+uvicorn
+watchdog
+langgraph-cli[inmem]
