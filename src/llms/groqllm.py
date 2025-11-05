@@ -10,7 +10,7 @@ class GroqLLM:
         try:
             print(os.getenv("GROQ_API_KEY"))
             os.environ["GROQ_API_KEY"]=self.groq_api_key=os.getenv("GROQ_API_KEY")
-            llm=ChatGroq(api_key=self.groq_api_key,model="qwen/qwen3-32b-chat",temperature=0)
+            llm=ChatGroq(api_key=self.groq_api_key,model="openai/gpt-oss-20b",temperature=0)
             return llm
         except Exception as e:
             raise ValueError(f"Error occurred with exception : {e}")
